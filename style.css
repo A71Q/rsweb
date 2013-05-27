@@ -1,0 +1,132 @@
+html {
+    width: 100%
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #262626;
+    background: #fff;
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+header h1 {
+    margin: 20px 0 20px 5px;
+    font-size: 20px;
+}
+
+a {
+    color: #ff9601;
+    outline: none
+}
+
+a:hover {
+    text-decoration: none
+}
+nav {
+    height: 40px;
+    background-color: #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+nav {
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+nav li a:link, nav a:visited {
+    color: #FFF;
+}
+
+nav a:hover, nav a:active, nav .active {
+    background-color: #CF5C3f;
+    text-shadow: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+section {
+    width: 70%;
+    float: left;
+    background-color: #fff;
+}
+
+article {
+    margin-bottom: 20px;
+    margin-right: 5px;
+    padding: 1%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+article header h2 {
+    color: #cf5c3f;
+    padding: 5px;
+}
+
+article header p {
+    color: #666666;
+    font-style: italic;
+    font-size: 85%;
+    padding: 5px;
+}
+
+article p {
+    padding: 5px;
+    line-height: 1.5;
+}
+
+aside {
+    width: 28%;
+    float: left;
+    padding: 1%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 1.2;
+}
+
+aside h2 {
+    color: #cf5c3f;
+    margin-bottom: 10px;
+}
+footer {
+    margin-bottom: 20px;
+}
+footer p {
+    clear: both;
+    width: 100%;
+    background-color: #666;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+}
