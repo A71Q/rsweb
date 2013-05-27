@@ -25,17 +25,15 @@ a {
 a:hover {
     text-decoration: none
 }
+
 nav {
     height: 40px;
     background-color: #666;
+    padding-left: 25px;
+    margin-bottom: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-}
-
-nav {
-    padding-left: 25px;
-    margin-bottom: 10px;
 }
 
 nav ul {
@@ -116,9 +114,11 @@ aside h2 {
     color: #cf5c3f;
     margin-bottom: 10px;
 }
+
 footer {
     margin-bottom: 20px;
 }
+
 footer p {
     clear: both;
     width: 100%;
@@ -129,4 +129,49 @@ footer p {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     color: #fff;
+}
+
+@media screen and (min-width: 150px) and (max-width: 550px) {
+    body {
+        width: 95%;
+    }
+
+    header h1 {
+        margin: 10px 0 10px 5px;
+        font-size: 15px;
+    }
+
+    nav {
+        padding-left: 0;
+        height: 120px;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li a {
+        margin: 0 auto;
+
+    }
+
+    nav a:hover, nav a:active, nav .active {
+        display: block;
+    }
+
+    section {
+        width: 95%;
+        line-height: 1;
+        font-size: 85%;
+    }
+    aside {
+        width: 95%;
+        line-height: 1;
+        font-size: 85%;
+    }
+    footer p {
+        width: 95%;
+    }
+
 }
